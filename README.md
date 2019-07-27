@@ -1,6 +1,4 @@
-# design-tokens
-A multi-branch personal playground of trying things with Design Tokens
-
+# Design Tokens
 ## Style Dictionary
 
 A demonstration branch for using Style Dictionary for your Design Tokens
