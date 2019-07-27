@@ -1,0 +1,30 @@
+{
+  "name": "design-tokens",
+  "version": "0.0.1",
+  "description": "a multi-branch personal playground of trying things with Design Toke",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sturobson/design-tokens.git"
+  },
+  "keywords": [
+    "design",
+    "tokens",
+    "node",
+    "npm",
+    "Sass",
+    "variables"
+  ],
+  "author": "Stuart Robson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sturobson/design-tokens/issues"
+  },
+  "homepage": "https://github.com/sturobson/design-tokens#readme",
+  "devDependencies": {
+    "style-dictionary": "^2.8.1"
+  }
+}
