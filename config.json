@@ -1,6 +1,37 @@
 {
   "source": ["properties/**/*.json"],
   "platforms": {
+    "css": {
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/hex", "size/remToPx"],
+      "buildPath": "build/css/",
+      "files": [
+        {
+          "destination": "variables.css",
+          "format": "css/variables"
+        }
+      ]
+    },
+    "json": {
+      "transformGroup": "css",
+      "buildPath": "build/json/",
+      "files": [
+        {
+          "destination": "tokens.json",
+          "format": "json"
+        }
+      ]
+    },
+    "scss-map-deep": {
+      "transformGroup": "scss",
+      "buildPath": "build/scss/maps/",
+      "files": [
+        {
+          "destination": "maps.scss",
+          "mapName": "tokens",
+          "format": "scss/map-deep"
+        }
+      ]
+    },
     "scss": {
       "transformGroup": "scss",
       "buildPath": "build/scss/",
